@@ -1,0 +1,161 @@
+/* General Styles */
+body {
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+h4{
+  text-align: center;
+}
+/* Header */
+
+header {
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #333;
+  color: white;
+  
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-bar {
+  
+  display: flex;
+  gap: 20px;
+ 
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #b5b5b5;
+}
+
+/* Home Section */
+#Home {
+  
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  height: 100vh;
+  
+}
+h3{
+  font-style: italic;
+}
+#form input[type="email"] {
+  padding: 10px;
+  width: 250px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#form input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#form input[type="submit"]:hover {
+  background-color: #b5b5b5;
+}
+
+.lamp {
+  margin-top: 20px;
+  height: 200px;
+  border-radius: 10px;
+  padding: 0cap;
+
+}
+
+/* Features Section */
+#features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  height:100vh;
+  background-color: white;
+
+}
+.video{
+  height: 250px;
+  border-radius: 10px;
+  margin: auto;
+  
+}
+.features {
+  display: flex;
+  gap: 40px; 
+  align-items: center;
+}
+
+.features h1 {
+  color: #333;
+}
+
+.features ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* Pricing Section */
+#pricing {
+  text-align: center;
+  padding: 100px;
+  height:100vh;
+  background-color: #ddd;
+  font-size: 150%;
+}
+
+.price{
+  
+  background-color: #bab9b9;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+/* Contact Section */
+#contact {
+  text-align: center;
+  padding: 100px;
+  height:100vh;
+  background-color: #fff;
+  font-size: 150%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header {
+      flex-direction: column;
+      text-align: center;
+  }
+  
+  .nav-bar {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+  }
+  
+  .features {
+      flex-direction: column;
+      text-align: center;
+  }
+}
