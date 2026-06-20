@@ -10,7 +10,8 @@ A responsive product landing page for a fictional desk lamp brand. This project 
 
 ## 📸 Preview
 
-![DeskLamp Landing Page](preview.png)
+![DeskLamp Landing Page](preview1.png)
+![DeskLamp Landing Page](preview2.png)
 
 ## ✨ Features
 
