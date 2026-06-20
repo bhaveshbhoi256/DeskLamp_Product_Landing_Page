@@ -6,7 +6,7 @@ A responsive product landing page for a fictional desk lamp brand. This project 
 
 ## 🌐 Live Demo
 
-🔗 https://your-demo-link-here
+🔗 [https://your-demo-link-here](https://bhaveshbhoi256.github.io/DeskLamp_Product_Landing_Page/)
 
 ## 📸 Preview
 
